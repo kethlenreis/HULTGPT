@@ -1,0 +1,58 @@
+
+portfolio_website/
+    ├── project.py
+    ├── requirements.txt
+    ├── test_project.py
+    ├── templates/
+    │   ├── index.html
+    │   ├── about.html
+    │   └── contact.html
+    └── static/
+        ├── styles.css
+        └── uploads/  
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00478d;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: white;
+}
+    nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.image-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.image-item img {
+    width: 200px; /* fixed width */
+    height: 150px; /*  fixed height */
+    object-fit: cover; /* image covers the area without distortion */
+    border: 2px solid #000000; /*  border color and thickness */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.image-item img:hover {
+    transform: scale(1.05); /* enlarge the image on hover */
+}

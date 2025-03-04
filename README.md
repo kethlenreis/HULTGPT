@@ -1,2 +1,1 @@
-# HULTGPT
-class
+
