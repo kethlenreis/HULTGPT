@@ -1,7 +1,7 @@
 Interactive Resume
 Kethlen Reis – BOS 1 
 Video URL: https://youtu.be/DhV_AGomlkI
-https://github.com/kethlenreis/HULTGPT
+
 
 Description:
   For my Final Project of computer science, I choose to create a personal website that lists all my professional, personal and academic works. Just like LinkedIn, but at the same time, just a resume. 
