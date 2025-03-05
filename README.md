@@ -1,1 +1,21 @@
-teste
+Interactive Resume
+Kethlen Reis – BOS 1 
+Video URL: https://youtu.be/DhV_AGomlkI
+https://github.com/kethlenreis/HULTGPT
+
+Description:
+  For my Final Project of computer science, I choose to create a personal website that lists all my professional, personal and academic works. Just like LinkedIn, but at the same time, just a resume. 
+I named my project “Interactive Resume”, and the name already explains the idea I wanted to pass, it is a resume that you can click, search more, see pictures and everything else in one page. 
+I choose this idea because I am very familiar with HTML, I got a certificate from Allura and I have been in online forums for a few years, which uses tools that are pretty similar to the html. I also created a blog once, so I thought the perfect fit to me would be a project I can make it completely and really understand, moreover, it is very fun to work with front end and design.
+In general, for my project.py document, to build the web applications I used the library flask and added the route to let me navigate through the different sections, this was the mainly code used there. Besides that, I added the pictures through a site called imgur, and stored the pictures in the python file with subtitles so people can understand the meaning of what they are seeing. I added certificates, volunteering work and Extracurricular activities. Together with that I runned the test project.py file so I could check easily any bugs before it is too late and see if the flask was really working, etc. 
+After that, most of my work was fun work (at least for me), designing, choosing colors and fonts for the website. 
+Once the pictures were there in the py file, I just had to upload from the other website and copy and paste the link. I used the html files to start the homepage, I started by choosing the language (English) my website would be in and then organizing the main titles and subtitles. After putting all I needed to create divisions, such as titles in Bold to call attention and differ from the body of the text, I added the content I wanted for the body of the website and started to edit it in a new CSS file for styles, so I could easily choose background colors (Navy Blue and White so is nice and clean for readers), fonts color, text align, margin and even size of the images (height and width) and border. This file was basically adding some organization for my website and making it look beautiful instead of messy. 
+For the About/Portfolio section, where you will find the educational background in images, something special that I found aesthetic was to put a little effect (using the CSS file) to make the pictures move when you pass the mouse by, I think it makes more interesting when you can interact with what you are seeing. I also had to add a special section for the pictures to appear. This section is to highlights some of my special works, with descriptions of each one to provide context and it is my favorite one, writing in a website is easy but to add pictures that move was a little bit more complex than just creating a website. I also learned to use a tool for lists, that make you be able to write only once and not many times, it was very helpful even though I had three images there. 
+Finally, in the 'Contact' page has all the necessary details for people to contact me, including a direct link to my LinkedIn profile. I also just used basic writing tools, separating it between title and body, putting the titles in bold and the body in regular font, I thought interesting to use a tool for people be able to open the URL without having to copy and paste, so they can click and go directly to the website. 
+Conclusion
+I developed a website/blog where I can host my resume and make it like a LinkedIn but in a more enjoyable way, with no ads and more information at once. It needs some adjustments and things that I would change, but I do not have the skills for doing it yet, such as, I would like the email to be sent automatically to me through the page, the person add a message, add a contact and goes directly to me, so I could track how many people are coming from the site and avoid spams. However, I am happy with the results, it was enjoyable and simple to do and it is something I will working on and uploading new certificates. 
+
+Instructions in how to run the code in the terminal: 
+source ven/bin/activate
+pip install Flask
+python project.py
